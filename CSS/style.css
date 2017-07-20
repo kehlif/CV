@@ -1,12 +1,22 @@
-* {
-  background-color:black;
+.intro {
+  background-image:url('../image/fond.jpeg');
+  background-repeat: round;
+  background-size: cover;
   color:white;
+  border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 
 h1{
   text-align:center;
+  font-size: 50px;
+  font-family: Georgia;
+
 }
 
+
 li{
-  display:inline;
+  display:inline-table;
+  position:relative;
+  bottom: 1px;
 }
