@@ -5,22 +5,32 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="CSS/style.css" media="screen">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script|Roboto" rel="stylesheet">
 </head>
 <body>
   <section class="intro">
     <img src="image/file.jpeg" alt="ma-photo" />
     <h1><strong>Fatima KEHLI</strong></h1><br>
-    <h1>Intégratrice web Junior</h1><br>
+    <h1>Intégratrice web Junior <a href="#accueil1"> <i class="fa fa-angle-right fa-1.5x" aria-hidden="true" margin:"2px"></i></a></h1>
     <nav>
       <ul>
-        <li><a href="Accueil.html">Accueil</a></li>
+        <li><a href="#accueil1">Accueil</a></li>
         <li><a href="#formation1">Formations</a></li>
         <li><a href="#competence1">Compétences</a></li>
         <li><a href="#experience1">Expériences</a></li>
         <li><a href="#Contact1">Contact</a></li>
       </ul>
     </nav>
+  </section>
+  <section class="accueil" id="accueil1">
+    <h1>Qui suis-je?</h1>
+    <p>Simplonienne junior depuis peu, je suis en pleine formation chez Simplon</p>
+    <p>Simplon est une fabrique qui permet à des jeunes de 16 à 25 ans de faire du numérique un levier d'insertion sociale et professionnelle </p>
+    <p>De ce fait, je suis en pleine recherche d'une entreprise ou start-up qui puisse me permettre de d'effectuer un stage d'observation d'une durée de 5 jours</p>
+    <p>Je vous laisse découvrir mon CV</p>
+  </section>
+
   </section>
   <section class="formation">
     <h1 id="formation1">Formation</h1>
@@ -34,63 +44,72 @@
   <section class="compétences">
     <h1 id="competence1">Compétences</h1>
     <div class="sous-langage">
-      <h2>Langage Informatique</h2>
+      <h3>Langage Informatique</h3>
       <progress value="50%" max="200">50%</progress>
-        <article>
-      <p>HTML/CSS</p>
-      <p>Javascript</p>
-      <p>SQL</p>
-      <p>UML</p>
-    </article>
-  </div>
-      <div class="sous-logiciel">
       <article>
-      <h2>Logiciels</h2>
-      <p>Linux</p>
-      <p>GitHub</p>
-      <p>Wordpress</p>
-    </article>
-  </div>
+        <p>HTML/CSS  <i class="fa fa-star fa-1x"></i><i class="fa fa-star fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i></p>
+        <p>Javascript  <i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i></p>
+        <p>SQL <i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i></p>
+        <p>UML <i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i><i class="fa fa-star-o fa-1x"></i></p>
+      </article>
+    </div>
+    <div class="sous-logiciel">
+      <article>
+        <h3>Logiciels</h3>
+        <p>Linux <input type="range" id="linux" name="linux1" step="1" value="2.5" min="1" max="5" /></p>
+        <p>GitHub</p>
+        <p>Wordpress</p>
+      </article>
+    </div>
+  </section>
+  <section>
     <div class="sous-projets">
       <article>
-      <h2>Projets</h2>
-      <p>Wordpress</p>
-      <p>One page</p>
-    </article>
-  </div>
+        <h3>Projets</h3>
+        <p>Wordpress<a class="wordpress" href="#"><i class="icon fa fa-wordpress fa-1x" ></i></a></p>
+        <p>One page</p>
+        <p>CV</p>
+      </article>
+    </div>
     <div class="sous-langues">
       <article>
-      <h2>Langues</h2>
-      <p>Français</p>
-      <p>Arabe</p>
-      <p>Anglais</p>
-      <p>Espagnol</p>
-    </article>
-  </div>
+        <h3>Langues</h3>
+        <p>Français <i class="fa fa-check fa-1x"></i> <i class="fa fa-check fa-1x"></i></p>
+        <p>Arabe  <i class="fa fa-check fa-1x"></i> <i class="fa fa-check fa-1x"></i> <i class="fa fa-check fa-1x"></i></p>
+        <p>Anglais <i class="fa fa-check fa-1x"></i></p>
+        <p>Espagnol <i class="fa fa-check fa-1x"></i></p>
+      </article>
+    </div>
   </section>
-    <section class="experience">
-      <h1 id="experience1">Expériences Professionnelles </h1><br>
-      <section class="sous-experience">
-      <p>2017 | Opératrice de Presse - Viapost - Chelles (CDD 4 mois)</p>
-      <p>2016 | Vendeuse en Boulangerie - Boulangerie L'Étoile d'Or - Montfermeil (CDD 4 mois)</p>
-      <p>2015 | Développeur Informatique - EDF CIT - La Défense (Stage 10 semaines)</p>
-      <p>2014-2015 | Tutrice - Aide aux devoirs - Association Parcours - Montfermeil (CDD 10 mois)</p>
-      <p>2012-2013 | Assistante scolaire auprès de particuliers - Association Parcours - Montfermeil (CDD 10 mois)</p>
-      <p>2011 | Garde d'enfants auprès de particuliers - Clichy-sous-Bois (CDD 2mois)</p>
-    </section>
-    <section class="contact">
-      <h1 id="Contact1">Contact</h1>
-      <h2>Pour plus d'infos voici tous l'essentiel en une boîte</h2>
-      <section class="sous-contact">
-      <p>adresse | 6014 Résidence Les Bois du Temple</p>
-      <p>93390 Clichy-sous-Bois</p>
-      <p>06xxxxxxxx</p>
-      <p>fatima.kehili@hotmail.fr</p>
-      <p>Permis B</p>
-      <p>Véhiculée</p><i class="fa fa-car"></i>
-    </section>
-    </section>
+<section>
 
+</section>
+<section class="experience" >
+  <h1>Expériences Professionnelles </h1><br>
+    <section  id="experience1"  class="sous-experience">
+    <p>2017 | Opératrice de Presse - Viapost - Chelles (CDD 4 mois)</p>
+    <p>2016 | Vendeuse en Boulangerie - Boulangerie L'Étoile d'Or - Montfermeil (CDD 4 mois)</p>
+    <p>2015 | Développeur Informatique - EDF CIT - La Défense (Stage 10 semaines)</p>
+    <p>2014-2015 | Tutrice - Aide aux devoirs - Association Parcours - Montfermeil (CDD 10 mois)</p>
+    <p>2012-2013 | Assistante scolaire auprès de particuliers - Association Parcours - Montfermeil (CDD 10 mois)</p>
+    <p>2011 | Garde d'enfants auprès de particuliers - Clichy-sous-Bois (CDD 2mois)</p>
+    </section>
+</section>
+<section class="contact">
+  <h1 id="Contact1">Contact</h1>
+  <h2>Pour plus d'infos voici tous l'essentiel en une boîte</h2>
+  <section class="sous-contact">
+    <p>6014 Résidence Les Bois du Temple</p>
+    <p>93390 Clichy-sous-Bois</p>
+    <p>06 63 30 29 32</p>
+    <p><a href="mailto:fatima.kehili@hotmail.fr"><strong>fatima.kehili@hotmail.fr</strong></a></p>
+    <p>Permis B</p>
+    <p>Véhiculée</p><i class="fa fa-car"></i>
+  </section>
+</section>
+<footer>
+  <a class="retour-haut" href="#"><i class="icon fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+</footer>
 
-  </body>
-  </html>
+</body>
+</html>
