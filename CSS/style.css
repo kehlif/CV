@@ -113,7 +113,7 @@ span{
   box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
   width:600px;
   height:320px;
-  margin-left: 180px;
+  margin-left: 350px;
   text-align:center;
   padding-top: 20px;
   background: linear-gradient(white,grey);
@@ -134,14 +134,14 @@ span{
 
 div:nth-child(2n+1)
 {
-  color:red;
+  color:black;
   z-index:1;
   float:right;
 }
 
 div:nth-child(2n+2)
 {
-color:blue;
+color:black;
   z-index:-1;
 }
 
@@ -165,7 +165,7 @@ color:blue;
   /*-moz-border-radius: 10px;*/
   box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
   width:300px;
-  height:200px;
+  height:220px;
   margin-right: 300px;
   text-align:center;
   padding-top: 20px;
@@ -182,11 +182,11 @@ color:blue;
   height:200px;
   margin-left: 180px;
   margin-right:20px;
-  text-align:center;
+  text-align:left;
   padding-top: 20px;
   padding-bottom: 10px;
   margin-top: 20px;
-
+  padding-left:20px;
 }
 
 .sous-langues{
@@ -252,7 +252,7 @@ progress{
    color:red;
    height:12px;
    width:50px;
-   background:black;
+   /*background:black;*/
    border-radius: 10px;
 
  }
